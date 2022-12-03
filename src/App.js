@@ -14,8 +14,8 @@ function App() {
         <h1>Counter App</h1>
           <h3>Count - {Count}</h3>
           <div className='btn_div'>
-          <button onClick={()=>setCount(Count+5)}>INCREMENT</button>
-          <button onClick={()=>setCount(Count-5)}>DECREMENT</button>
+          <button onClick={()=>setCount(Count+4)}>INCREMENT</button>
+          <button onClick={()=>setCount(Count-4)}>DECREMENT</button>
           </div>
           
 
